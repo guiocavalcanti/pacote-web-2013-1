@@ -5,14 +5,14 @@ Pacote Web é um nome pequeno para dizer o que este curso significa. Na realidad
 
 # Ementa
 
-## Introdução
+## [Introdução](https://github.com/guiocavalcanti/pacote-web-2013-1/blob/master/slides/0-introducao.pdf?raw=true)
 1. Contextualização: a história da Web
 2. Comunicação cliente-servidor
 3. Protocolo HTTP
 4. Ambiente desenvolvimento
 5. Como funciona o curso?
 
-## HTML
+## [HTML](https://github.com/guiocavalcanti/pacote-web-2013-1/blob/master/slides/1-html.pdf?raw=true)
 1. Contextualização: Semântica
 2. Estrutura básica de um documento HTML
 3. As diferentes versões do HTML
