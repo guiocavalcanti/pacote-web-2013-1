@@ -25,7 +25,7 @@ Pacote Web é um nome pequeno para dizer o que este curso significa. Na realidad
     - Tags: ``form``, ``fieldset``, ``input``, ``label``, ``textarea``, ``button``
     - Projeto: Formulário de cadastro
 
-## CSS
+## [CSS]((https://github.com/guiocavalcanti/pacote-web-2013-1/blob/master/slides/2-css.pdf?raw=true)
 1. Contextualização: estilo
 2. Formas de inclusão de folhas de estilo
 3. As diferentes versões do CSS
