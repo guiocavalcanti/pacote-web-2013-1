@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Revisando HTML</title>
+<head>
+<body>
+  <h3>Formulários</h3>
+  <form action="http://0.0.0.0:3000/contacts" method="POST">
+    <fieldset>
+      <legend>Contato</legend>
+      <fieldset>
+        <legend>Dados de contato</legend>
+        <label for="campo-nome">Nome:</label>
+        <input type="text" id="campo-nome" name="contact[name]" placeholder="Digite seu nome">
+
+        <label for="campo-email">Email:</label>
+        <input type="email" id="campo-email" name="contact[email]" placeholder="exemplo@seu-site.com">
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados da mensagem</legend>
+        <label for="campo-assunto">Assunto:</label>
+        <input type="text" id="campo-assunto" name="assunto">
+
+        <label for="campo-mensagem">Mensagem:</label>
+        <textarea id="campo-mensagem" name="contact[message]"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>O resultado de:</legend>
+        <label for="campo-verificacao">10+5</label>
+        <input type="number" id="campo-verificacao" name="verificacao">
+      </fieldset>
+
+      <fieldset>
+        <legend>Ações</legend>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar campos">
+      </fieldset>
+    </fieldset>
+  </form>
+
+
+  <h1>Meu primeiro título</h1>
+  <p><a href="http://redu.com.br" title="Entre no Redu!">Lorem</a> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h2>Exemplo de título de segundo nível</h2>
+
+  <h3>Lista não ordenada</h3>
+  <ul>
+    <li>Ovos</li>
+    <li>Farinha</li>
+  </ul>
+
+  <h3>Lista não ordenada</h3>
+  <ol>
+    <li>Adicione farinha...</li>
+    <li>Adicione o fermento...</li>
+  </ol>
+
+  <h3>Navegação</h3>
+  <nav>
+    <ul>
+      <li><a href="http://google.com">Google</a></li>
+      <li><a href="http://redu.com.br">Redu</a></li>
+      <li><a href="http://globo.com">Globo.com</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
+
