@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #eee;
+}
+
+.todo-app {
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+h1 { text-align: center; }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo > .item > a {
+  color: black;
+  font-weight: bold;
+}
+
+.todo > .item > a:hover {
+  color: black;
+}
+
+.item a {
+  color: #777;
+}
+
+.item a:hover {
+  color: #999;
+}
+

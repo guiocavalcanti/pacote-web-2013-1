@@ -1,0 +1,88 @@
+/*
+.vermelha {
+  color: red;
+}
+
+ul {
+  border: 1px solid red;
+  width: 400px;
+}
+
+li {
+  border: 1px solid blue;
+}
+
+.list-item { color: yellow; }
+
+#nome {
+  border: 1px solid blue;
+}
+*/
+
+/*
+.classe { }
+#meu-id {  }
+
+.menu a {
+  color: purple;
+}
+
+.outro-menu ul > li > a {
+  color: green;
+}
+
+input[type=text] {
+  border: 1px solid red;
+}
+
+input[type=password] {
+  border: 1px solid purple;
+}
+
+input[required] {
+  background-color: red;
+}
+*/
+
+body {
+  font-family: "Arial";
+}
+
+p {
+  /* left, right, center, justify */
+  text-align: center;
+  line-height: 85%;
+}
+
+.todo-app {
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+.texto {
+  /* none, underline, overline...*/
+  text-decoration: line-through;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+a {
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  /* disc, circle, decimal, square */
+  list-style-type: georgian;
+}
+
+ol {
+  /* inside, outside*/
+  list-style-position: outside;
+  list-style-image: url("http://cdn1.iconfinder.com/data/icons/fatcow/32/bullet_star.png");
+}
+

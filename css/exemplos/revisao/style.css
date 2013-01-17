@@ -1,0 +1,20 @@
+a, .destaque {
+  color: red;
+}
+
+p {
+  font-family: "Arial", "Tahoma";
+  font-weight: bold;
+  text-align: right;
+  line-height: 150%;
+  text-decoration: overline;
+  text-transform: capitalize;
+}
+
+.sem-serif { font-family: Arial; }
+
+#navegacao {
+  width: 600px;
+  list-style-type: square;
+  list-style-image: url("...");
+}
