@@ -1,0 +1,176 @@
+body {
+  background-color: #9fc5e9;
+}
+
+.container {
+  width: 770px;
+  margin: 30px auto;
+}
+
+.cabecalho {
+  overflow: hidden; /* hack para crescer da acordo com o conteúdo */
+  border-top: 10px solid #b9d3a4;
+  background-color: #ccc;
+
+}
+
+.cabecalho .logotipo a {
+  width: 387px;
+  height: 54px;
+  display: block;
+  margin-left: 30px;
+  margin-top: 25px;
+
+  /* image replacement */
+  text-indent: -9999px;
+  overflow: hidden;
+
+  background: url("../images/logo.gif") no-repeat;
+}
+
+.cabecalho .navegacao {
+  border-top: 1px solid gray;
+}
+
+.cabecalho .navegacao li {
+  float: left;
+}
+
+.cabecalho .navegacao a {
+  color: #5794c1;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 13px;
+  padding: 10px 20px;
+  display: block;
+}
+
+.cabecalho .navegacao a:hover {
+  background-color: #eaeaea;
+}
+
+.chamada {
+  background: #5794c1 url("../images/muleke.jpg") no-repeat;
+  height: 244px;
+  padding: 15px 15px 0 424px;
+}
+
+.chamada h2, .chamada p { color: white; }
+.chamada h2 {
+  margin: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.chamada p {
+  font-size: 13px;
+  line-height: 180%;
+}
+
+.corpo {
+  background-color: #d5d5d5;
+  overflow: hidden;
+}
+
+.corpo .conteudo {
+  width: 475px;
+  float: left;
+  margin-left: 15px;
+  color: #878787;
+}
+
+.corpo .conteudo p {
+  font-size: 13px;
+  line-height: 190%;
+}
+
+.corpo .sidebar {
+  width: 260px;
+  float: right;
+  padding: 10px 10px 20px 10px;
+  background-color: #bababa;
+}
+
+.corpo .sidebar .legend-busca,
+.corpo .sidebar .botao,
+.corpo .sidebar .legend-login {
+  display: none;
+}
+
+.corpo .sidebar hr {
+  border: none;
+  border-top: 2px solid white;
+}
+
+.corpo .sidebar input[type=text],
+.corpo .sidebar input[type=password] {
+  width: 252px;
+  border: none;
+  background-color: white;
+  padding: 4px;
+}
+
+.corpo .sidebar .form-busca label,
+.corpo .sidebar h3 {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #195157;
+  margin: 10px 0;
+}
+
+.corpo .sidebar .links-importantes {
+  list-style-type: none;
+  padding: 0;
+}
+
+.corpo .sidebar .links-importantes a {
+  color: gray;
+  text-decoration: none;
+}
+
+.corpo .sidebar .form-login label {
+  color: gray;
+  text-transform: lowercase;
+}
+
+.rodape {
+  clear: both;
+  margin-top: 20px;
+}
+
+.rodape .logotipo2 {
+  width: 191px;
+  float: left;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.rodape .logotipo2 a {
+  display: block;
+  width: 191px;
+  height: 27px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../images/logo-rodape.gif") no-repeat;
+}
+
+.rodape .contato {
+  text-align: right;
+  width: 300px;
+  float: right;
+}
+
+.rodape .contato .telefone {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: gray;
+  text-transform: uppercase;
+  display: block;
+}
+
+.rodape .contato .endereco {
+  font-style: normal;
+  color: gray;
+}
