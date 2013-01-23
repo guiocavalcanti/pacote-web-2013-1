@@ -1,0 +1,270 @@
+body {
+  background: url("../images/bg-geral.png");
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.bar {
+  background: url("../images/bg-barra-topo.png") repeat-x;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.bar-container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.bar .sn {
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 5px;
+  float: right;
+}
+
+.bar .sn li {
+  float: left;
+  margin-right: 10px;
+}
+
+.bar .sn a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.bar .sn .rss {
+  background: url("../images/bt-rss.png") no-repeat;
+}
+.bar .sn .fb {
+  background: url("../images/bt-facebook.png") no-repeat;
+}
+.bar .sn .tw {
+  background: url("../images/bt-twitter.png") no-repeat;
+}
+
+.bar .form-busca {
+  float: right;
+}
+
+.bar .form-busca label, .bar .form-busca input[type=submit] {
+  display: none;
+}
+
+.bar .form-busca input[type=text] {
+  background: url("../images/bg-busca.png") no-repeat;
+  width: 183px;
+  height: 30px;
+  border: none;
+  padding: 0 5px;
+  color: white;
+}
+
+
+.header { overflow: hidden; }
+
+.header .logotipo {
+  float: left;
+  width: 400px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.header .logotipo a {
+  font-family: 'Joti One', cursive;
+  font-size: 46px;
+}
+
+.header .menu {
+  margin-top: 40px;
+  float: left;
+}
+
+.header .menu li {
+  float: left;
+}
+
+.header .menu a {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.header .menu a:hover {
+  background: url("../images/bg-transparente.png");
+}
+
+.call {
+  padding: 10px;
+  background: url("../images/bg-banner.png") no-repeat;
+}
+
+.call .call-nav {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 0;
+  width: 75px;
+  overflow: hidden;
+}
+
+.call .call-nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+.call .call-nav a {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #2e374c;
+  text-indent: -9999px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.call .call-nav a:hover {
+  background-color: #3689b6;
+}
+
+.sections {
+  background: url("../images/bg-transparente.png");
+  overflow: hidden;
+  color: white;
+  padding: 20px;
+}
+
+.sections .about,
+.sections .group {
+  margin-right: 20px;
+}
+
+.sections .about,
+.sections .group,
+.sections .contact {
+  width: 287px;
+  float: left;
+  background: url("../images/bg-transparente.png");
+}
+
+.sections h2 {
+  margin: 0;
+}
+
+.sections .call-wrapper {
+  background: url("../images/bg-boxes.png");
+  width: 289px;
+  height: 46px;
+}
+
+.sections .call-wrapper h2 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 45px;
+  height: 30px;
+}
+
+.sections .about .call-wrapper h2 {
+  background: url("../images/icone-pessoa.png") no-repeat 10px 10px;
+}
+
+.sections .contact .call-wrapper h2 {
+  background: url("../images/icone-telefone.png") no-repeat 10px 10px;
+}
+
+.sections .group .call-wrapper h2 {
+  background: url("../images/icone-chat.png") no-repeat 10px 10px;
+}
+
+.sections .section-content {
+  padding: 20px;
+}
+
+.sections .section-content p {
+  font-size: 14px;
+  color: #475169;
+}
+
+.sections .group a,
+.sections .about a {
+  background: #11719f;
+  padding: 10px 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  width: 60px;
+}
+
+.sections .contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sections .contact {
+  height: 363px;
+}
+
+.sections .contact h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.sections .contact address,
+.sections .contact a {
+  color: #475169;
+  text-decoration: none;
+}
+
+.footer {
+  background: #0f131f;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.footer ol {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  background: url("../images/bg-twitter.png") no-repeat;
+  width: 265px;
+  height: 94px;
+  float: left;
+  margin-right: 11px;
+  padding: 35px 20px;
+  color: #475169;
+  font-size: 13px;
+}
+
+.footer .twitter h2 {
+  background: url("../images/icone-twitter.png") no-repeat;
+  padding-left: 50px;
+  color: #757d90;
+  font-size: 18px;
+}
+
+.footer .copyright {
+  background: #040507;
+}
+
+.footer .footer-container {
+  width: 950px;
+  margin: 0 auto;
+}
