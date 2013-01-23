@@ -43,7 +43,7 @@ Pacote Web é um nome pequeno para dizer o que este curso significa. Na realidad
     - Propriedades: ``float``, ``display``, ``clear``
     - Projeto 1: Corporation Corp.
 
-## JavaScript com jQuery
+## [JavaScript]((https://github.com/guiocavalcanti/pacote-web-2013-1/blob/master/slides/2-css.pdf?raw=true)) com jQuery
 1. Contextualização: comportamento
 2. O DOM
 3. O básico
