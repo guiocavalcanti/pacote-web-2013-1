@@ -1,0 +1,80 @@
+/**
+ * Cores utilizadas:
+   * Cor de pele: #EBE9DC
+   * Verde mais escuro: #98CD3F
+   * Verde mais claro: #ABE547
+   * Bordas: #D4D0C1
+   * Legend: #A8A599
+**/
+
+body {
+  background: #EBE9DC url("../imagens/background.png") repeat-x;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+}
+
+.navegacao {
+  width: 720px;
+  margin: 40px auto;
+}
+
+.navegacao li {
+  display: inline;
+}
+
+.navegacao a {
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#container {
+  background-color: white;
+  border: 3px solid #d4d0c1;
+  width: 635px;
+  margin: 41px auto;
+  padding: 50px;
+}
+
+#container fieldset {
+  border: 2px solid #cec9ba;
+  background-color: #f5f4ee;
+  padding: 45px 115px;
+}
+
+#container legend {
+  color: #a8a599;
+  font-weight: bold;
+}
+
+#container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#container input[type=text], #container input[type=password] {
+  margin-bottom: 15px;
+  background: url("../imagens/input.gif") no-repeat;
+  border: none;
+  width: 291px;
+  height: 32px; /* 42 - 10 (padding) */
+  padding: 0 5px 10px 5px;
+  outline: none; /* borda adimensional */
+}
+
+#container input[type=submit] {
+  background-color: #98cd3f;
+  border: 2px solid #999;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+#container p {
+  color: #a8a599;
+  font-size: 13px;
+}
+
+#container p a {
+  color: #98cd3f;
+}
